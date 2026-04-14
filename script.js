@@ -44,7 +44,7 @@ data.forEach(item => {
     <p>${item.desc}</p>
   `;
 
-  // 👉 ini yang bikin bisa diklik
+  
   if (item.action) {
     box.onclick = () => {
       window[item.action]();
